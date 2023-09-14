@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: 'Martel', sans-serif;
+    color: #000000;
+}
+
+body {
+    background: url('./assets/bg-page.jpg') no-repeat top center /cover;
+}
+
+header {
+    display: flex;
+    margin: 60px auto 15%;
+    justify-content: center;
+}
+
+#logo { 
+    margin-right: 25%;
+}
+
+#topics li {
+    display: inline;
+    margin: 0 16px;
+    border-radius: 99px;
+    padding: 16px;
+    border: 2px solid rgba( 88, 86, 86, 0.8);
+    background: rgba(255, 255, 255, 0.521);
+}
+
+#about {
+    display: flex;
+    background: #ffff;
+}
+
+#about img {
+    padding: 16px;
+    width: 15%;
+    border-radius: 50%;
+}
+
+#img projects {
+    border: 1px solid red;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
